@@ -19,7 +19,7 @@ export function Features() {
     {
       icon: Smartphone,
       title: "Mobile Money intégré",
-      description: "Compatible avec MTN Money, Moov Money, Wave et Orange Money."
+      description: "Compatible avec MTN Money, Moov Money et Celtis Bénin."
     },
     {
       icon: Shield,

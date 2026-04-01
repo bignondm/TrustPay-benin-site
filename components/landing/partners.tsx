@@ -2,8 +2,7 @@ export function Partners() {
   const mobilePartners = [
     { name: "MTN Money", color: "bg-yellow-500" },
     { name: "Moov Money", color: "bg-blue-600" },
-    { name: "Wave", color: "bg-cyan-500" },
-    { name: "Orange Money", color: "bg-orange-500" }
+    { name: "Celtis Cash", color: "bg-cyan-500" }
   ]
 
   const bankPartners = [
