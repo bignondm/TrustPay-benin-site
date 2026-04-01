@@ -73,7 +73,7 @@ export function Reports() {
               <button
                 key={period.key}
                 onClick={() => setActivePeriod(period.key)}
-                className={`flex-1 min-w-[120px] py-4 px-6 text-sm font-medium transition-colors ${
+                className={`flex-1 min-w-30 py-4 px-6 text-sm font-medium transition-colors ${
                   activePeriod === period.key
                     ? "bg-primary text-primary-foreground"
                     : "text-muted-foreground hover:text-foreground hover:bg-muted"

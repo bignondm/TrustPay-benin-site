@@ -60,7 +60,7 @@ export function Hero() {
           <div className="relative flex justify-center lg:justify-end">
             <div className="relative">
               {/* Main Phone */}
-              <div className="relative w-72 h-[580px] bg-foreground rounded-[3rem] p-3 shadow-2xl">
+              <div className="relative w-72 h-145 bg-foreground rounded-[3rem] p-3 shadow-2xl">
                 <div className="w-full h-full bg-card rounded-[2.5rem] overflow-hidden">
                   {/* Status Bar */}
                   <div className="flex items-center justify-between px-6 py-3 bg-primary">
