@@ -4,7 +4,7 @@ import {
   Shield, 
   BarChart3, 
   Clock, 
-  Users, 
+  Play, 
   Banknote,
   Bell
 } from "lucide-react"
@@ -37,9 +37,9 @@ export function Features() {
       description: "Accédez à l'historique de toutes vos transactions à tout moment."
     },
     {
-      icon: Users,
-      title: "Multi-utilisateurs",
-      description: "Ajoutez des employés avec des accès personnalisés à votre compte."
+      icon: Play,
+      title: "Saisie vocal",
+      description: "TrustPay intègre une fonctionnalité de saisie vocale permettant à l’utilisateur de parler au lieu d’écrire."
     },
     {
       icon: Banknote,
