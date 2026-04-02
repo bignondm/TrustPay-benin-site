@@ -8,6 +8,7 @@ import { Score } from "@/components/landing/score"
 import { Partners } from "@/components/landing/partners"
 import { Testimonials } from "@/components/landing/testimonials"
 import { CTA } from "@/components/landing/cta"
+import  IMF  from "@/components/landing/imf"
 import { Footer } from "@/components/landing/footer"
 
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
       <Partners />
       <Testimonials />
       <CTA />
+      <IMF />
       <Footer />
     </main>
   )

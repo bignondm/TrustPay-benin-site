@@ -34,6 +34,9 @@ export function Header() {
             <Link href="#contact" className="text-muted-foreground hover:text-foreground transition-colors">
               Contact
             </Link>
+            <Link href="#imf" className="text-muted-foreground hover:text-foreground transition-colors">
+                IMF
+              </Link>
           </nav>
 
           {/* Desktop CTA */}
@@ -65,12 +68,15 @@ export function Header() {
               <Link href="#rapports" className="text-muted-foreground hover:text-foreground transition-colors">
                 Rapports
               </Link>
+              <Link href="#IMF" className="text-muted-foreground hover:text-foreground transition-colors">
+                IMF
+              </Link>
               <Link href="#contact" className="text-muted-foreground hover:text-foreground transition-colors">
                 Contact
               </Link>
               <div className="flex flex-col gap-2 pt-4 border-t border-border">
-                <Button variant="ghost" className="justify-start">Se connecter</Button>
-                <Button className="justify-start">Commencer gratuitement</Button>
+                <Button variant="ghost" className="justify-start">Voir la démo</Button>
+                <Button className="justify-start">Télécharger gratuitement</Button>
               </div>
             </nav>
           </div>
